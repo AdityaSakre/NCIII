@@ -1,0 +1,126 @@
+.reg{
+    margin-top:10px;
+}
+@media (min-width:1200px){
+    .reg{
+        margin-top:0px;
+    }
+}
+
+.intro-date{
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.intro-date sup{
+    font-size: 15px;
+}
+@media (min-width:1200px) {
+    .intro-date {
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .intro-date sup{
+        font-size: 20px;
+    }
+}
+
+
+.sponsorlogo {
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+@media (min-width:768px) {
+    .sponsorlogo {
+        margin-bottom: 20px;
+        margin-top:-60px ;
+        padding: 30px;
+    }
+
+}
+
+
+sup{
+    font-size: 14px;
+    padding: 0;
+    border: 0;
+}
+@media (min-width: 768px){
+
+    sup{
+        font-size: 25px;
+        padding: 0;
+        border: 0;
+    }
+}
+
+
+
+
+.controls{
+    width:65px;
+    display:block;
+    font-size:20px;
+    padding-top:8px;
+    font-weight:bold;
+}
+.next {
+    float:right;
+    text-align:right;
+}
+
+.mo{
+   height: auto;
+
+    background-color: #5bc0de;
+}
+
+.first{
+    padding: 10px;
+    margin: 0;
+    height: auto;
+}
+
+
+.first li{
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    height: auto;
+    list-style: none;
+    display:inline-block;
+}
+
+
+
+
+.dropdownthis li{
+    margin-left: -14px;
+}
+.dropdownthis a{
+    text-decoration: none;
+}
+
+.img-size{
+    width: 59%;
+}
+
+#linkreg,#linkreg1{
+    cursor: pointer;
+}
+.other-font{
+    color: darkgoldenrod;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.other-font:hover{
+    text-decoration: none;
+}
